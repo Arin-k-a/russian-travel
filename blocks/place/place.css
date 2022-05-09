@@ -20,7 +20,7 @@
 @media screen and (max-width:1279px) {
     .place {
         max-width: 928px;
-        min-height: 640px; 
+        min-height: 640px;
         column-gap: 32px;
     }
 }
