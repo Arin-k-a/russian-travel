@@ -1,6 +1,5 @@
 .intro__title {
     margin: 0;
-    width: 690px;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -9,16 +8,10 @@
     text-align: left;
 }
 
-@media screen and (max-width:1023px) {
-    .intro__title {
-        width: 720px;
-    }
-}
-
 @media screen and (max-width:767px) {
     .intro__title {
-        width: 288px;
         font-size: 32px;
         line-height: 35px;
+        width: calc(100% - 2 * 40px);
     }
 }

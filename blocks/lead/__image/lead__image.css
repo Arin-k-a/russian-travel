@@ -1,31 +1,27 @@
 .lead__image {
     width: 937.09px;
-    position: absolute;
     z-index: 2;
-    top: 496.61px;
-    left: 41.5px;
+    margin: 128.61px 0 0 41.5px;
+
 }
 
 @media screen and (max-width:1279px) {
     .lead__image {
         width: 883.76px;
-        top: 481.29px;
-        left: 39.14px;
+        margin: 121.29px 0 0 39.14px;
     }
 }
 
 @media screen and (max-width:1023px) {
     .lead__image {
         width: 731.38px;
-        top: 460.38px;
-        left: 32.39px;
+        margin: 100.38px 0 0 32.39px;
     }
 }
 
 @media screen and (max-width:767px) {
     .lead__image {
         width: 304.74px;
-        top: 225.83px;
-        left: 13.5px;
+        margin: 41.83px 0 0 13.5px;
     }
 }

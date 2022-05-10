@@ -1,6 +1,5 @@
 .place__link {
     margin: 0;
-    max-width: 456px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -11,16 +10,4 @@
 
 .place__link:hover {
     opacity: 0.8;
-}
-
-@media screen and (max-width:1023px) {
-    .place__link {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .place__link {
-        max-width: 288px;
-    }
 }

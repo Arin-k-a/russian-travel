@@ -1,26 +1,23 @@
 .places {
-    width: 984px;
+    width: calc(100% - 2 * 148px);
     min-height: 3392px;
     margin: 0 auto;
 }
 
 @media  screen and (max-width:1279px) {
     .places {
-        width: 928px;
-        min-height: 3292px;
+        width: calc(100% - 2 * 48px);
     }
 }
 
 @media screen and (max-width:1023px) {
     .places {
-        width: 720px;
-        min-height: 2808px;
+        width: (100% - 2 * 24px);
     }
 }
 
 @media screen and (max-width:767px) {
     .places {
-        width: 320px;
-        min-height: 5177px;
+        width: 100%;
     }
 }

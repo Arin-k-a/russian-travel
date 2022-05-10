@@ -1,21 +1,8 @@
 .intro__list-item {
     margin: 0;
-    width: 690px;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-}
-
-@media screen and (max-width:1023px) {
-    .intro__list-item {
-        width: 720px;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .intro__list-item {
-        width: 288px;
-    }
 }
