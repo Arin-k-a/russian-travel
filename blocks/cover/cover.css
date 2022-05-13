@@ -2,25 +2,25 @@
     background-image: url(../../images/__background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1184px;
+    max-width: 1184px;
     margin: 0 auto;
     padding: 0;
 }
 
 @media screen and (max-width:1279px) {
     .cover {
-        width: 1024px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (max-width:1023px) {
     .cover {
-        width: 768px;
+        max-width: 768px;
     }
 }
 
 @media screen and (max-width:767px) {
     .cover {
-        width: 320px;
+        max-width: 320px;
     }
 }
